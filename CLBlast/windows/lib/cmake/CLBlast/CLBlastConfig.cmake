@@ -59,7 +59,7 @@ endif()
 add_library(clblast SHARED IMPORTED)
 
 set_target_properties(clblast PROPERTIES
-  INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include;C:/vcpkg/packages/opencl_x64-windows/include"
+  INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include;C:/OpenCL/include"
 )
 
 # Load information for each installed configuration.
