@@ -56,7 +56,7 @@ if(_IMPORT_PREFIX STREQUAL "/")
 endif()
 
 # Create imported target clblast
-add_library(clblast SHARED IMPORTED)
+add_library(clblast STATIC IMPORTED)
 
 set_target_properties(clblast PROPERTIES
   INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include;/usr/include"

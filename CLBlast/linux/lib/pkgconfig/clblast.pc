@@ -1,4 +1,4 @@
-prefix=/home/runner/work/CLBlast/CLBlast/CLBlast-1.6.2-linux-x86_64
+prefix=/usr/local
 exec_prefix=${prefix}
 includedir=${prefix}/include
 libdir=${exec_prefix}/lib
